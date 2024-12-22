@@ -21,6 +21,7 @@ html {
 .page {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -66,11 +67,10 @@ ol {
   grid-template-areas:
   "result content__details"
   "result content__details";
-  justify-content: first baseline;
   column-gap: 30px;
   width: 1140px;
   height: 534px;
-  margin: 133px 30px; 
+  margin: 133px 30px;
 }
 
 .content__list-container {
@@ -133,10 +133,6 @@ ol {
   appearance: none;
 }
 
-.search-form__label-text {
-  
-}
-
 .search-form__checkbox-list {
   display: flex;
   flex-direction: row;
@@ -153,7 +149,7 @@ ol {
   outline: solid 1px rgb(255 255 255);
 }
 
-.search-form__checkbox[type="checkbox"]:checked + span{
+.search-form__checkbox[type="checkbox"]:checked + span {
   content: "";
   outline-offset: 1px;
   background-color: rgb(255 255 255);
@@ -268,7 +264,7 @@ ol {
 .search-form__submit-button:hover,
 .more-button:hover,
 .search-form__label-text:hover,
-.content__list:hover{
+.content__list:hover {
   outline-offset: 2px;
   text-decoration: underline;
 }
