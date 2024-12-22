@@ -21,7 +21,7 @@ html {
 .page {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -67,9 +67,8 @@ ol {
   grid-template-areas:
   "result content__details"
   "result content__details";
+  align-content: end;
   column-gap: 30px;
-  width: 1140px;
-  height: 534px;
   margin: 133px 30px;
 }
 
