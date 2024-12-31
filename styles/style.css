@@ -338,7 +338,7 @@ ol {
   outline: none;
 }
 
-.content__list-item:has(:focus-visible){
+.content__list-item:has(:focus-visible) {
   border: 1px solid rgb(255 255 255);
 }
 
