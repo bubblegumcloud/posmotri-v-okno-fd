@@ -334,14 +334,12 @@ ol {
   outline-offset: 1px;
 }
 
-.content__card-link:focus,
-.content__list-container:focus {
+.content__card-link:focus {
   outline: none;
 }
 
-.content__card-link:focus-visible,
-.content__list-container:focus-visible {
-  outline: 1px solid rgb(255 255 255);
+.content__list-item:has(:focus-visible){
+  border: 1px solid rgb(255 255 255);
 }
 
 .error__title {
