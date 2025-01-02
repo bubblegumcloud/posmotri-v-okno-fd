@@ -154,6 +154,9 @@ ol {
 }
 
 .search-form__pseudo-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 5px;
   border: 1px solid rgb(255 255 255);
   inline-size: 19px;
@@ -165,7 +168,6 @@ ol {
   display: block;
   width: 15px;
   height: 15px;
-  margin: 1.3px 0 0 1.2px; 
   opacity: 0;
   background-color: rgb(255 255 255);
 }
